@@ -1,7 +1,7 @@
 using UnityEngine;
 
 [CreateAssetMenu(fileName = "Item", menuName = "Item/Item")]
-public class S_Item : ScriptableObject
+public class Item : ScriptableObject
 {
     // an item has a name, texture, description, cost.
     // it can have more, but for now, that's all.
