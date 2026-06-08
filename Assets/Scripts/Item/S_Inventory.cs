@@ -1,16 +1,16 @@
 using UnityEngine;
 
+// struct that stores item ref and uint amount.
+// can be used for inventory, but also for recipe ingredients,
+// so it's a public struct.
+[System.Serializable]
+public struct ItemNum
+{
+    Item item;
+    uint amount;
+}
+
 public class S_Inventory : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    
 }

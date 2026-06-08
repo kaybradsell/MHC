@@ -4,12 +4,7 @@ using UnityEngine;
 [CreateAssetMenu(fileName ="Recipe", menuName = "Item/Recipe")]
 public class Recipe : ScriptableObject
 {
-    [System.Serializable]
-    public struct Ingredient
-    {
-        Item item;
-        uint amount;
-    }
+    
 
     // recipe has reference to item result
     // references to all ingredients
